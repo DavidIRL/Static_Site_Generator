@@ -9,16 +9,6 @@ from md_blocks import (
     block_type_ulist,
     block_type_olist,
 )
-from md_html import (
-    md_to_html_node,
-    block_to_html_node,
-    paragraph_to_html_node,
-    heading_to_html_node,
-    quote_to_html_node,
-    code_to_html_node,
-    ulist_to_html_node,
-    olist_to_html_node,
-)
 
 
 class TestMarkdownToHTML(unittest.TestCase):
